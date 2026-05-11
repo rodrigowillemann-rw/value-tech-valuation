@@ -39,14 +39,36 @@ docs/       premissas, criterios e metodologia
 src/        funcoes reutilizaveis em versoes futuras
 ```
 
-## Resultados e Aprendizados Esperados
+## Como Executar
+
+```sh
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+jupyter notebook notebooks/valuation-demo.ipynb
+```
+
+## Resultados e Aprendizados
 
 - Matriz comparativa de tecnologias
 - Score de prioridade para portfolios de inovacao
 - Base para dashboards executivos
 - Aprendizado sobre criterios de valoracao e tomada de decisao em PD&I
 
+## Resultado Demonstrativo
+
+Com os dados sinteticos em `data/tecnologias_exemplo.csv`, o modelo calcula um score de prioridade para comparar tecnologias em um portfolio de inovacao.
+
+| Tecnologia | Score |
+| --- | ---: |
+| Modelo preditivo de manutencao | 129,50 |
+| Sensor IoT para eficiencia energetica | 126,50 |
+| Plataforma DPP para cadeia textil | 119,90 |
+| Sistema de triagem documental com IA | 97,70 |
+| Bioembalagem circular | 89,15 |
+
 ## Autor
 
 Rodrigo Willemann  
 Email: rodrigo.willemann@gmail.com
+
