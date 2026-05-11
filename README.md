@@ -46,13 +46,6 @@ src/        funcoes reutilizaveis em versoes futuras
 - Base para dashboards executivos
 - Aprendizado sobre criterios de valoracao e tomada de decisao em PD&I
 
-## Proximos Passos
-
-- Refinar pesos dos criterios de avaliacao.
-- Criar calculadora de valuation simplificada.
-- Adicionar simulacao de cenarios otimista, base e conservador.
-- Publicar dashboard demonstrativo.
-
 ## Autor
 
 Rodrigo Willemann  
